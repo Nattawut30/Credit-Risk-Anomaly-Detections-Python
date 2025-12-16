@@ -7,8 +7,8 @@
 ***Overview***
 -
 My Personal project is exploring machine learning solution for assessing credit risk, tackling two major challenges faced by banks:
-1. Credit Risk Scoring = Predicts whether a loan applicant is likely to default, achieving 70-80% accuracy.
-2. Fraud Detection = Identifies suspicious applications using anomaly detection techniques.
+- Credit Risk Scoring: Predicts whether a loan applicant is likely to default, achieving 70-80% accuracy.
+- Fraud Detection: Identifies suspicious applications using anomaly detection techniques.
 
 **Why It Matters:**
 Banks lose billions every year due to loan defaults and fraudulent applications. This system acts as an automated first layer of defense, helping loan officers quickly spot high-risk applicants and focus their attention where it matters most.
@@ -17,16 +17,16 @@ Banks lose billions every year due to loan defaults and fraudulent applications.
 -
 **Modules:**
 
-1. Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
-2. Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
-3. Audit Trail: Full logging for compliance and debugging
-4. Fair Lending Compliant: Uses only financial factors (no demographic data)
+- Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
+- Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
+- Audit Trail: Full logging for compliance and debugging
+- Fair Lending Compliant: Uses only financial factors (no demographic data)
 
 **Business Impact:**
 
-1. Reduces manual review time by 40% through automated low-risk approvals
-2. Catches anomalies that traditional rule-based systems miss
-3. Explainable results for regulatory compliance
+- Reduces manual review time by 40% through automated low-risk approvals
+- Catches anomalies that traditional rule-based systems miss
+- Explainable results for regulatory compliance
 
 `````mermaid
 graph TD
